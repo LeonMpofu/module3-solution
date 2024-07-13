@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Module 3 Solution</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f8f9fa;
+    }
+    .navbar {
+      background-color: #343a40;
+      border-color: #343a40;
+    }
+    .navbar-brand {
+      font-family: 'Lobster', cursive;
+      color: #ffffff !important;
+    }
+    .navbar-nav > li > a {
+      color: #ffffff !important;
+    }
+    .navbar-nav > li > a:hover {
+      background-color: #495057 !important;
+    }
+    h1 {
+      font-family: 'Lobster', cursive;
+      color: #343a40;
+    }
+    .section {
+      background-color: #ffffff;
+      border: 1px solid #dee2e6;
+      border-radius: 5px;
+      margin: 20px 0;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .section .title {
+      font-family: 'Lobster', cursive;
+      font-size: 24px;
+      color: #495057;
+      margin-bottom: 10px;
+    }
+    .section p {
+      color: #6c757d;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Food, LLC</a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="nav navbar-nav visible-xs">
+          <li><a href="#ribs">Ribs</a></li>
+          <li><a href="#fillets">Fillets</a></li>
+          <li><a href="#pap">Pap</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Heading -->
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 class="text-center">Our Menu</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sections -->
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <div class="section" id="ribs">
+          <div class="title">Ribs</div>
+          <p>Golden fingers</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="section" id="fillets">
+          <div class="title">Fillets</div>
+          <p>Fine fillets</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="section" id="pap">
+          <div class="title">Pap</div>
+          <p>Sweet savour</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
